@@ -1,0 +1,8 @@
+default-render-distance: 64.0
+audience-reconciliation-interval-ticks: 10
+max-active-entities: 10000
+max-updates-per-tick: 2000
+debug: false
+adapters:
+  modelengine: true
+  mythicmobs: true

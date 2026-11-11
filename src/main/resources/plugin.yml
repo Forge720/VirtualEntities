@@ -1,0 +1,19 @@
+name: VirtualEntities
+version: '${version}'
+main: net.plexmc.virtualentities.VirtualEntitiesPlugin
+api-version: '1.21'
+description: Packet-only virtual entity infrastructure for Paper 1.21.11.
+author: PlexMC
+softdepend:
+  - ModelEngine
+  - MythicMobs
+commands:
+  virtualentities:
+    description: VirtualEntities diagnostics and test controls.
+    aliases: [ve]
+    usage: /virtualentities <status|reload|test|remove>
+    permission: virtualentities.admin
+permissions:
+  virtualentities.admin:
+    description: Access VirtualEntities administrative commands.
+    default: op
